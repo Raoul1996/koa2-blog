@@ -3,7 +3,7 @@
  */
 const router = require('koa-router')()
 
-router.prefix('/sigin')
+router.prefix('/signup')
 
 router.get('/', async (ctx, next) => {
   await ctx.render('signup', {})
